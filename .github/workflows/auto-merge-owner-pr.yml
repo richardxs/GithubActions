@@ -22,7 +22,7 @@ jobs:
         - name: unit test
           run: python -m unittest --verbose --failfast
     merge:
-        if: github.actor == 'automate6500' || github.actor == 'octocat'
+        if: github.actor == 'richardxs'
         needs: [lint]
         runs-on: ubuntu-latest
         steps:
