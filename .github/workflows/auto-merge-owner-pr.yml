@@ -1,4 +1,4 @@
-name: Auto Merge Owner
+name: Auto Merge OwnerXS
 
 on:
   pull_request:
